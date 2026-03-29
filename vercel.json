@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/pulse",       "destination": "/pulse/index.html" },
+    { "source": "/pulse/:path*","destination": "/pulse/index.html" },
+    { "source": "/fabric",      "destination": "/fabric/index.html" },
+    { "source": "/fabric/:path*","destination": "/fabric/index.html" },
+    { "source": "/((?!assets/).*)", "destination": "/index.html" }
+  ]
+}
