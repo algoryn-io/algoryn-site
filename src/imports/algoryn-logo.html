@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algoryn — Logo</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .section-label {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 40px;
+  }
+
+  /* ── LIGHT ── */
+  .section.light {
+    background: #ffffff;
+  }
+  .section.light .section-label { color: #b0b0c0; }
+
+  /* ── DARK ── */
+  .section.dark {
+    background: #0f0f18;
+  }
+  .section.dark .section-label { color: #3a3a55; }
+
+  /* ── LOGO HORIZONTAL ── */
+  .logo-h {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .wordmark-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .wordmark-name-light {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0f1f5c;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .wordmark-name-dark {
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .tagline-light {
+    font-size: 12px;
+    color: #7a8ab0;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+  }
+
+  .tagline-dark {
+    font-size: 12px;
+    color: #5a6a90;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+  }
+
+  /* ── ICON ONLY SIZES ── */
+  .icon-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 28px;
+    margin-top: 48px;
+  }
+
+  .icon-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .icon-sz {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: #6b6b80;
+  }
+
+  /* ── PRODUCT LOCKUP ── */
+  .product-row {
+    display: flex;
+    gap: 40px;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-chip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.04);
+  }
+
+  .product-chip-light {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(15,31,92,0.1);
+    background: rgba(15,31,92,0.04);
+  }
+
+  .chip-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .chip-name-dark {
+    font-size: 13px;
+    font-weight: 600;
+    color: #9090b0;
+    letter-spacing: 0.04em;
+  }
+
+  .chip-name-light {
+    font-size: 13px;
+    font-weight: 600;
+    color: #4a5580;
+    letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ LIGHT VERSION ══ -->
+<div class="section light">
+  <div class="section-label" style="color:#c0c0d0">Versión fondo claro</div>
+
+  <div class="logo-h">
+    <!-- A mark -->
+    <svg width="72" height="80" viewBox="0 0 72 80" fill="none">
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#3b6fe8"/>
+          <stop offset="100%" stop-color="#0f1f8c"/>
+        </linearGradient>
+        <linearGradient id="g2" x1="0" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#3b6fe8"/>
+          <stop offset="100%" stop-color="#1a3ac0"/>
+        </linearGradient>
+      </defs>
+      <!-- Left leg -->
+      <line x1="36" y1="8" x2="8" y2="70" stroke="url(#g1)" stroke-width="8" stroke-linecap="round"/>
+      <!-- Right leg -->
+      <line x1="36" y1="8" x2="64" y2="70" stroke="url(#g1)" stroke-width="8" stroke-linecap="round"/>
+      <!-- Crossbar -->
+      <line x1="20" y1="46" x2="52" y2="46" stroke="url(#g2)" stroke-width="7" stroke-linecap="round"/>
+      <!-- Node top -->
+      <circle cx="36" cy="8" r="7" fill="#5b9bff"/>
+      <circle cx="36" cy="8" r="3.5" fill="white"/>
+      <!-- Node left crossbar -->
+      <circle cx="20" cy="46" r="6" fill="#3b6fe8"/>
+      <circle cx="20" cy="46" r="3" fill="white"/>
+      <!-- Node right crossbar -->
+      <circle cx="52" cy="46" r="6" fill="#3b6fe8"/>
+      <circle cx="52" cy="46" r="3" fill="white"/>
+      <!-- Node bottom left -->
+      <circle cx="8" cy="70" r="5" fill="#1a3ac0"/>
+      <circle cx="8" cy="70" r="2.5" fill="white" opacity="0.7"/>
+      <!-- Node bottom right -->
+      <circle cx="64" cy="70" r="5" fill="#1a3ac0"/>
+      <circle cx="64" cy="70" r="2.5" fill="white" opacity="0.7"/>
+    </svg>
+
+    <div class="wordmark-col">
+      <span class="wordmark-name-light">Algoryn</span>
+      <span class="tagline-light">Simple tools for serious infrastructure.</span>
+    </div>
+  </div>
+
+  <!-- Product chips light -->
+  <div class="product-row">
+    <div class="product-chip-light">
+      <div class="chip-dot" style="background:#7c3aed"></div>
+      <span class="chip-name-light">Pulse</span>
+    </div>
+    <div class="product-chip-light">
+      <div class="chip-dot" style="background:#3b6fe8"></div>
+      <span class="chip-name-light">Relay</span>
+    </div>
+  </div>
+
+  <!-- Icon sizes light -->
+  <div class="icon-row">
+    <div class="icon-wrap">
+      <svg width="96" height="106" viewBox="0 0 72 80" fill="none">
+        <defs>
+          <linearGradient id="g1b" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#3b6fe8"/>
+            <stop offset="100%" stop-color="#0f1f8c"/>
+          </linearGradient>
+          <linearGradient id="g2b" x1="0" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#3b6fe8"/>
+            <stop offset="100%" stop-color="#1a3ac0"/>
+          </linearGradient>
+        </defs>
+        <line x1="36" y1="8" x2="8" y2="70" stroke="url(#g1b)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="36" y1="8" x2="64" y2="70" stroke="url(#g1b)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="20" y1="46" x2="52" y2="46" stroke="url(#g2b)" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="36" cy="8" r="7" fill="#5b9bff"/>
+        <circle cx="36" cy="8" r="3.5" fill="white"/>
+        <circle cx="20" cy="46" r="6" fill="#3b6fe8"/>
+        <circle cx="20" cy="46" r="3" fill="white"/>
+        <circle cx="52" cy="46" r="6" fill="#3b6fe8"/>
+        <circle cx="52" cy="46" r="3" fill="white"/>
+        <circle cx="8" cy="70" r="5" fill="#1a3ac0"/>
+        <circle cx="8" cy="70" r="2.5" fill="white" opacity="0.7"/>
+        <circle cx="64" cy="70" r="5" fill="#1a3ac0"/>
+        <circle cx="64" cy="70" r="2.5" fill="white" opacity="0.7"/>
+      </svg>
+      <span class="icon-sz">96px</span>
+    </div>
+
+    <div class="icon-wrap">
+      <svg width="48" height="54" viewBox="0 0 72 80" fill="none">
+        <defs>
+          <linearGradient id="g1c" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#3b6fe8"/>
+            <stop offset="100%" stop-color="#0f1f8c"/>
+          </linearGradient>
+          <linearGradient id="g2c" x1="0" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#3b6fe8"/>
+            <stop offset="100%" stop-color="#1a3ac0"/>
+          </linearGradient>
+        </defs>
+        <line x1="36" y1="8" x2="8" y2="70" stroke="url(#g1c)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="36" y1="8" x2="64" y2="70" stroke="url(#g1c)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="20" y1="46" x2="52" y2="46" stroke="url(#g2c)" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="36" cy="8" r="7" fill="#5b9bff"/>
+        <circle cx="36" cy="8" r="3.5" fill="white"/>
+        <circle cx="20" cy="46" r="6" fill="#3b6fe8"/>
+        <circle cx="20" cy="46" r="3" fill="white"/>
+        <circle cx="52" cy="46" r="6" fill="#3b6fe8"/>
+        <circle cx="52" cy="46" r="3" fill="white"/>
+        <circle cx="8" cy="70" r="5" fill="#1a3ac0"/>
+        <circle cx="64" cy="70" r="5" fill="#1a3ac0"/>
+      </svg>
+      <span class="icon-sz">48px</span>
+    </div>
+
+    <div class="icon-wrap">
+      <svg width="24" height="27" viewBox="0 0 72 80" fill="none">
+        <line x1="36" y1="8" x2="8" y2="70" stroke="#3b6fe8" stroke-width="8" stroke-linecap="round"/>
+        <line x1="36" y1="8" x2="64" y2="70" stroke="#3b6fe8" stroke-width="8" stroke-linecap="round"/>
+        <line x1="20" y1="46" x2="52" y2="46" stroke="#3b6fe8" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="36" cy="8" r="7" fill="#5b9bff"/>
+        <circle cx="36" cy="8" r="3.5" fill="white"/>
+        <circle cx="20" cy="46" r="6" fill="#3b6fe8"/>
+        <circle cx="52" cy="46" r="6" fill="#3b6fe8"/>
+      </svg>
+      <span class="icon-sz">24px</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══ DARK VERSION ══ -->
+<div class="section dark">
+  <div class="section-label">Versión fondo oscuro</div>
+
+  <div class="logo-h">
+    <svg width="72" height="80" viewBox="0 0 72 80" fill="none">
+      <defs>
+        <linearGradient id="gd1" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#5b9bff"/>
+          <stop offset="100%" stop-color="#2a4fe8"/>
+        </linearGradient>
+        <linearGradient id="gd2" x1="0" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#4a80f0"/>
+          <stop offset="100%" stop-color="#2a4fe8"/>
+        </linearGradient>
+      </defs>
+      <line x1="36" y1="8" x2="8" y2="70" stroke="url(#gd1)" stroke-width="8" stroke-linecap="round"/>
+      <line x1="36" y1="8" x2="64" y2="70" stroke="url(#gd1)" stroke-width="8" stroke-linecap="round"/>
+      <line x1="20" y1="46" x2="52" y2="46" stroke="url(#gd2)" stroke-width="7" stroke-linecap="round"/>
+      <!-- Node top — glows -->
+      <circle cx="36" cy="8" r="9" fill="#5b9bff" opacity="0.2"/>
+      <circle cx="36" cy="8" r="7" fill="#7bb5ff"/>
+      <circle cx="36" cy="8" r="3.5" fill="white"/>
+      <!-- Crossbar nodes -->
+      <circle cx="20" cy="46" r="6" fill="#4a80f0"/>
+      <circle cx="20" cy="46" r="3" fill="white" opacity="0.9"/>
+      <circle cx="52" cy="46" r="6" fill="#4a80f0"/>
+      <circle cx="52" cy="46" r="3" fill="white" opacity="0.9"/>
+      <!-- Bottom nodes -->
+      <circle cx="8" cy="70" r="5" fill="#2a4fe8"/>
+      <circle cx="8" cy="70" r="2.5" fill="white" opacity="0.5"/>
+      <circle cx="64" cy="70" r="5" fill="#2a4fe8"/>
+      <circle cx="64" cy="70" r="2.5" fill="white" opacity="0.5"/>
+    </svg>
+
+    <div class="wordmark-col">
+      <span class="wordmark-name-dark">Algoryn</span>
+      <span class="tagline-dark">Simple tools for serious infrastructure.</span>
+    </div>
+  </div>
+
+  <!-- Product chips dark -->
+  <div class="product-row">
+    <div class="product-chip">
+      <div class="chip-dot" style="background:#7c3aed"></div>
+      <span class="chip-name-dark">Pulse</span>
+    </div>
+    <div class="product-chip">
+      <div class="chip-dot" style="background:#4a80f0"></div>
+      <span class="chip-name-dark">Relay</span>
+    </div>
+  </div>
+
+  <!-- Icon sizes dark -->
+  <div class="icon-row">
+    <div class="icon-wrap">
+      <svg width="96" height="106" viewBox="0 0 72 80" fill="none">
+        <defs>
+          <linearGradient id="gd1b" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#5b9bff"/>
+            <stop offset="100%" stop-color="#2a4fe8"/>
+          </linearGradient>
+          <linearGradient id="gd2b" x1="0" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#4a80f0"/>
+            <stop offset="100%" stop-color="#2a4fe8"/>
+          </linearGradient>
+        </defs>
+        <line x1="36" y1="8" x2="8" y2="70" stroke="url(#gd1b)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="36" y1="8" x2="64" y2="70" stroke="url(#gd1b)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="20" y1="46" x2="52" y2="46" stroke="url(#gd2b)" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="36" cy="8" r="9" fill="#5b9bff" opacity="0.2"/>
+        <circle cx="36" cy="8" r="7" fill="#7bb5ff"/>
+        <circle cx="36" cy="8" r="3.5" fill="white"/>
+        <circle cx="20" cy="46" r="6" fill="#4a80f0"/>
+        <circle cx="20" cy="46" r="3" fill="white" opacity="0.9"/>
+        <circle cx="52" cy="46" r="6" fill="#4a80f0"/>
+        <circle cx="52" cy="46" r="3" fill="white" opacity="0.9"/>
+        <circle cx="8" cy="70" r="5" fill="#2a4fe8"/>
+        <circle cx="8" cy="70" r="2.5" fill="white" opacity="0.5"/>
+        <circle cx="64" cy="70" r="5" fill="#2a4fe8"/>
+        <circle cx="64" cy="70" r="2.5" fill="white" opacity="0.5"/>
+      </svg>
+      <span class="icon-sz" style="color:#3a3a55">96px</span>
+    </div>
+
+    <div class="icon-wrap">
+      <svg width="48" height="54" viewBox="0 0 72 80" fill="none">
+        <defs>
+          <linearGradient id="gd1c" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#5b9bff"/>
+            <stop offset="100%" stop-color="#2a4fe8"/>
+          </linearGradient>
+        </defs>
+        <line x1="36" y1="8" x2="8" y2="70" stroke="url(#gd1c)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="36" y1="8" x2="64" y2="70" stroke="url(#gd1c)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="20" y1="46" x2="52" y2="46" stroke="#4a80f0" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="36" cy="8" r="7" fill="#7bb5ff"/>
+        <circle cx="36" cy="8" r="3.5" fill="white"/>
+        <circle cx="20" cy="46" r="6" fill="#4a80f0"/>
+        <circle cx="20" cy="46" r="3" fill="white" opacity="0.9"/>
+        <circle cx="52" cy="46" r="6" fill="#4a80f0"/>
+        <circle cx="52" cy="46" r="3" fill="white" opacity="0.9"/>
+        <circle cx="8" cy="70" r="5" fill="#2a4fe8"/>
+        <circle cx="64" cy="70" r="5" fill="#2a4fe8"/>
+      </svg>
+      <span class="icon-sz" style="color:#3a3a55">48px</span>
+    </div>
+
+    <div class="icon-wrap">
+      <svg width="24" height="27" viewBox="0 0 72 80" fill="none">
+        <line x1="36" y1="8" x2="8" y2="70" stroke="#5b9bff" stroke-width="8" stroke-linecap="round"/>
+        <line x1="36" y1="8" x2="64" y2="70" stroke="#5b9bff" stroke-width="8" stroke-linecap="round"/>
+        <line x1="20" y1="46" x2="52" y2="46" stroke="#4a80f0" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="36" cy="8" r="7" fill="#7bb5ff"/>
+        <circle cx="36" cy="8" r="3.5" fill="white"/>
+        <circle cx="20" cy="46" r="6" fill="#4a80f0"/>
+        <circle cx="52" cy="46" r="6" fill="#4a80f0"/>
+      </svg>
+      <span class="icon-sz" style="color:#3a3a55">24px</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
