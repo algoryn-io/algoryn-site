@@ -1,4 +1,5 @@
 import {
+  Activity,
   ArrowRight,
   Binary,
   Bolt,
@@ -6,7 +7,6 @@ import {
   Boxes,
   Cpu,
   Github,
-  HeartPulse,
   Radio,
   Siren,
   Target,
@@ -20,7 +20,7 @@ const ecosystemTools = [
     status: "Available now",
     version: "v0.3.6",
     accent: "#6B2FD9",
-    icon: HeartPulse,
+    icon: Activity,
     description:
       "Load testing and chaos engineering in Go. Write scenarios as code, run them locally or in CI, and keep the feedback loop close to your service.",
     href: "https://github.com/algoryn-io/pulse",
