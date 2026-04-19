@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="80" viewBox="0 0 96 80" fill="none" role="img" aria-label="Algoryn">
+  <defs>
+    <linearGradient id="v76-a" x1="30" y1="18" x2="66" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7BB5FF"></stop>
+      <stop offset="100%" stop-color="#2A4FE8"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M10 28 L20 40 L10 52" stroke="#5B9BFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  <path d="M78 20 L86 20 L86 60 L78 60" stroke="#5B9BFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  
+  <path d="M42 20 L54 20 L68 64 L58 64 L55 54 L41 54 L38 64 L28 64 Z" fill="url(#v76-a)"></path>
+  
+  <rect x="43" y="43" width="10" height="6" fill="#0D1117"></rect>
+  
+  <circle cx="48" cy="20" r="4.5" fill="#BFD9FF"></circle>
+  <circle cx="48" cy="20" r="2" fill="#FFFFFF"></circle>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="80" viewBox="0 0 72 80" fill="none" role="img" aria-label="Algoryn">
+  <defs>
+    <linearGradient id="og-light-1" x1="0" y1="0" x2="72" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b6fe8"></stop>
+      <stop offset="100%" stop-color="#0f1f8c"></stop>
+    </linearGradient>
+    <linearGradient id="og-light-2" x1="0" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b6fe8"></stop>
+      <stop offset="100%" stop-color="#1a3ac0"></stop>
+    </linearGradient>
+  </defs>
+  <line x1="36" y1="8" x2="8" y2="70" stroke="url(#og-light-1)" stroke-width="8" stroke-linecap="round"></line>
+  <line x1="36" y1="8" x2="64" y2="70" stroke="url(#og-light-1)" stroke-width="8" stroke-linecap="round"></line>
+  <line x1="20" y1="46" x2="52" y2="46" stroke="url(#og-light-2)" stroke-width="7" stroke-linecap="round"></line>
+  <circle cx="36" cy="8" r="7" fill="#5b9bff"></circle>
+  <circle cx="36" cy="8" r="3.5" fill="white"></circle>
+  <circle cx="20" cy="46" r="6" fill="#3b6fe8"></circle>
+  <circle cx="20" cy="46" r="3" fill="white"></circle>
+  <circle cx="52" cy="46" r="6" fill="#3b6fe8"></circle>
+  <circle cx="52" cy="46" r="3" fill="white"></circle>
+  <circle cx="8" cy="70" r="5" fill="#1a3ac0"></circle>
+  <circle cx="8" cy="70" r="2.5" fill="white" opacity="0.7"></circle>
+  <circle cx="64" cy="70" r="5" fill="#1a3ac0"></circle>
+  <circle cx="64" cy="70" r="2.5" fill="white" opacity="0.7"></circle>
+</svg>

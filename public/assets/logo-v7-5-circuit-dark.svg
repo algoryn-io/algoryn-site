@@ -1,0 +1,25 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="80" viewBox="0 0 96 80" fill="none" role="img" aria-label="Algoryn">
+  <defs>
+    <linearGradient id="v75-a" x1="30" y1="18" x2="66" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7BB5FF"></stop>
+      <stop offset="100%" stop-color="#2A4FE8"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M10 28 L20 40 L10 52" stroke="#5B9BFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  <path d="M78 20 L86 20 L86 60 L78 60" stroke="#5B9BFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  
+  <line x1="48" y1="22" x2="30" y2="62" stroke="url(#v75-a)" stroke-width="5.5" stroke-linecap="round"></line>
+  <line x1="48" y1="22" x2="66" y2="62" stroke="url(#v75-a)" stroke-width="5.5" stroke-linecap="round"></line>
+  
+  <line x1="38" y1="46" x2="58" y2="46" stroke="url(#v75-a)" stroke-width="5" stroke-linecap="round"></line>
+  
+  <circle cx="48" cy="22" r="7" fill="#5B9BFF" opacity="0.25"></circle>
+  <circle cx="48" cy="22" r="5" fill="#BFD9FF"></circle>
+  <circle cx="48" cy="22" r="2.2" fill="#FFFFFF"></circle>
+  
+  <circle cx="30" cy="62" r="4" fill="#4A80F0"></circle>
+  <circle cx="30" cy="62" r="1.6" fill="#FFFFFF" opacity="0.9"></circle>
+  <circle cx="66" cy="62" r="4" fill="#4A80F0"></circle>
+  <circle cx="66" cy="62" r="1.6" fill="#FFFFFF" opacity="0.9"></circle>
+</svg>
